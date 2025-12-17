@@ -1,4 +1,4 @@
-import { StyleSheet, View} from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { useState } from 'react';
 import Titol from './components/Titol';
 import Calculadora from './components/Calculadora';
@@ -12,8 +12,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Titol />
-      <Calculadora enviarAlPare={rebreImc}/>
-      <Resultat nuevoImc={imc}/>
+      <Calculadora enviarAlPare={rebreImc} />
+      <Resultat nuevoImc={imc} />
     </View>
   );
 }
@@ -21,6 +21,6 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 24,
+    padding: 10,
   },
 });
